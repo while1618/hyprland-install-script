@@ -282,7 +282,7 @@ cp -rf ./config/alacritty ./config/dunst ./config/gtk-3.0 ./config/gtk-4.0 ./con
     ./config/kitty ./config/scripts ./config/Thunar ./config/wal ./config/waybar \
     ./config/wlogout ./config/fastfetch ./config/ghostty ./config/starship.toml \
     ~/.config
-sudo sed -i "s/Inherits=.*/Inherits=Qogir-dark/g" /usr/share/icons/default/index.theme
+sudo sed -i "s/Inherits=.*/Inherits=Qogir-Dark/g" /usr/share/icons/default/index.theme
 
 # rofi
 echo -e "${GREEN}"
