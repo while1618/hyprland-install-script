@@ -122,3 +122,4 @@ eval "$(zoxide init --cmd cd zsh)"
 precmd() { precmd() { echo "" } }
 alias clear="precmd() { precmd() { echo } } && clear"
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"

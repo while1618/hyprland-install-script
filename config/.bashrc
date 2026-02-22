@@ -69,3 +69,4 @@ source /usr/share/nvm/init-nvm.sh
 # https://github.com/starship/starship/issues/560#issuecomment-2197994300
 PROMPT_COMMAND="export PROMPT_COMMAND=echo"
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
