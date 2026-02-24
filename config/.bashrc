@@ -62,11 +62,12 @@ alias astronvim="NVIM_APPNAME=astronvim nvim"
 
 # Shell integrations
 eval "$(fzf --bash)"
-eval "$(zoxide init --cmd cd bash)"
+if [ -z "$DISABLE_ZOXIDE" ]; then
+  eval "$(zoxide init --cmd cd bash)"
+fi
 source /usr/share/nvm/init-nvm.sh
 
 # Starship
 # https://github.com/starship/starship/issues/560#issuecomment-2197994300
 PROMPT_COMMAND="export PROMPT_COMMAND=echo"
 eval "$(starship init bash)"
-eval "$(zoxide init bash)"
