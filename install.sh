@@ -161,7 +161,7 @@ if gum confirm "Do you need development setup?" ;then
   echo -e "${GREEN}"
   figlet "Java"
   echo -e "${NONE}"
-  sudo pacman -Sy jre21-openjdk jdk21-openjdk maven --noconfirm
+  sudo pacman -Sy jdk25-openjdk maven --noconfirm
   yay -S google-java-format --noconfirm
 
   # python
