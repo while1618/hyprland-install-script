@@ -244,36 +244,39 @@ echo -e "${NONE}"
 
 if $nvidia ;then
     echo \
-"# -----------------------------------------------------
-# Environment Variables
-# -----------------------------------------------------
+"-- Environment Variables
+-- https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+-- https://wiki.hyprland.org/Nvidia/
 
-# https://wiki.hyprland.org/Nvidia/
-env = LIBVA_DRIVER_NAME,nvidia
-env = XDG_SESSION_TYPE,wayland
-env = GBM_BACKEND,nvidia-drm
-env = __GLX_VENDOR_LIBRARY_NAME,nvidia
-env = NVD_BACKEND,direct
-env = ELECTRON_OZONE_PLATFORM_HINT,auto
+hl.env(\"LIBVA_DRIVER_NAME\", \"nvidia\")
+hl.env(\"XDG_SESSION_TYPE\", \"wayland\")
+hl.env(\"GBM_BACKEND\", \"nvidia-drm\")
+hl.env(\"__GLX_VENDOR_LIBRARY_NAME\", \"nvidia\")
+hl.env(\"NVD_BACKEND\", \"direct\")
+hl.env(\"ELECTRON_OZONE_PLATFORM_HINT\", \"auto\")
 
-cursor {
-    no_hardware_cursors = true
-}" > ./config/hypr/conf/environment.conf
+hl.config({
+    cursor = {
+        no_hardware_cursors = true,
+    },
+})" > ./config/hypr/conf/environment.lua
 
 echo \
 "
-# -----------------------------------------------------
-# Flickering fix
-# -----------------------------------------------------
-source = ~/.config/hypr/conf/electron-flickering-fix.conf" >> ./config/hypr/hyprland.conf
+-- Flickering fix
+require(\"conf/electron-flickering-fix\")" >> ./config/hypr/hyprland.lua
 fi
 
 echo \
-"# -----------------------------------------------------
-# Monitor Setup
-# -----------------------------------------------------
+"-- Monitor Setup
+-- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 
-monitor=,${resolution},auto,1" > ./config/hypr/conf/monitor.conf
+hl.monitor({
+    output   = \"\",
+    mode     = \"${resolution}\",
+    position = \"auto\",
+    scale    = 1,
+})" > ./config/hypr/conf/monitor.lua
 
 cp -rf ./config/.gtkrc-2.0 ./config/.Xresources ./config/.bashrc ./config/.zshrc ~/
 mkdir -p ~/.config/qBittorrent && cp -rf ./config/qbittorrent/qbittorrent.qbtheme ~/.config/qBittorrent

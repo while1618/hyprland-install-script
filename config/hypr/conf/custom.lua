@@ -1,0 +1,14 @@
+-- Add your additional Hyprland configurations here
+--
+-- Example keybind:
+-- hl.bind(mainMod .. " + CTRL + up", hl.dsp.focus({ workspace = "empty" }))
+--
+-- Example for xwayland:
+-- hl.config({
+--     xwayland = {
+--         force_zero_scaling = true,
+--     },
+-- })
+
+-- qt5ct environment variable
+-- hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")

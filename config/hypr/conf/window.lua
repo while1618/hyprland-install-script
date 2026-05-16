@@ -1,0 +1,10 @@
+-- General window settings
+
+hl.config({
+    general = {
+        gaps_in     = 6,
+        gaps_out    = 12,
+        border_size = 0,
+        layout      = "dwindle",
+    },
+})
