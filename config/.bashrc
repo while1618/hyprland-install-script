@@ -1,6 +1,6 @@
 # History
 HISTSIZE=5000
-HISTFILE=~/.zsh_history
+HISTFILE=~/.bash_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
 
