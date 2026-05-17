@@ -131,7 +131,7 @@ figlet "CorePackages"
 echo -e "${NONE}"
 
 # packages
-sudo pacman -Sy hyprland waybar rofi-wayland dunst hyprpaper hyprlock hypridle xdg-desktop-portal-hyprland sddm \
+sudo pacman -Sy hyprland rofi-wayland dunst hyprpaper hyprlock hypridle xdg-desktop-portal-hyprland sddm \
                 alacritty kitty ghostty vim zsh starship picom qt5-wayland qt6-wayland cliphist \
                 thunar gvfs thunar-volman tumbler thunar-archive-plugin ark \
                 network-manager-applet blueman brightnessctl \
@@ -139,7 +139,7 @@ sudo pacman -Sy hyprland waybar rofi-wayland dunst hyprpaper hyprlock hypridle x
                 ttf-font-awesome otf-font-awesome ttf-fira-sans ttf-fira-code   \
                 ttf-firacode-nerd gnome-themes-extra gtk-engine-murrine nwg-look \
                 --noconfirm
-yay -S wlogout waypaper hyprland-qtutils qogir-gtk-theme qogir-icon-theme --noconfirm
+yay -S waybar-git wlogout waypaper hyprland-qtutils qogir-gtk-theme qogir-icon-theme --noconfirm
 
 # -----------------------------------------------------
 # development
