@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock -q --immediate",
+    "action" : "hyprlock -q",
     "text" : "Lock",
     "keybind" : "l"
 }
