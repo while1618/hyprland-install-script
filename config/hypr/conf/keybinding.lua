@@ -28,7 +28,6 @@ hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.resize({ x = 0,    y = 100,  re
 hl.bind(mainMod .. " + P",         hl.dsp.exec_cmd("~/.config/hypr/scripts/screenshot.sh"))
 hl.bind(mainMod .. " + X",         hl.dsp.exec_cmd("wlogout"))
 hl.bind(mainMod .. " + CTRL + A",  hl.dsp.exec_cmd("rofi -show drun -replace -i -theme ~/.config/rofi/launchers/type-1/style-6.rasi"))
-hl.bind(mainMod .. " + CTRL + H",  hl.dsp.exec_cmd("~/.config/hypr/scripts/keybindings.sh"))
 hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("~/.config/waybar/launch.sh"))
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/loadconfig.sh"))
 hl.bind(mainMod .. " + CTRL + C",  hl.dsp.exec_cmd("~/.config/scripts/cliphist.sh"))

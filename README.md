@@ -46,7 +46,7 @@ Once it's done, reboot and you are good to go.
 ## First Login
 
 - On login screen (sddm) change `session` from `hyprland systemd` to `hyprland`.
-- When you login, type `ctrl + super + H` to check all the keybindings, so that you know what you can do.
+- When you login, check [`config/hypr/conf/keybinding.lua`](config/hypr/conf/keybinding.lua) to see all the keybindings.
 - If you want to do any additional customization, I suggest visiting Hyprland [wiki](https://wiki.hyprland.org/), and seek for inspiration on GitHub and Reddit.
 
 ## Known Issues
