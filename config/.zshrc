@@ -113,6 +113,8 @@ alias nvchad="NVIM_APPNAME=nvchad nvim"
 alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 alias astronvim="NVIM_APPNAME=astronvim nvim"
 
+export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
+
 # Shell integrations
 eval "$(fzf --zsh)"
 if [ -z "$DISABLE_ZOXIDE" ]; then

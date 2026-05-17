@@ -8,6 +8,7 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("ghostty"))
 hl.bind(mainMod .. " + W",      hl.dsp.exec_cmd("zen-browser"))
 hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd("thunar"))
 hl.bind(mainMod .. " + C",      hl.dsp.exec_cmd("code"))
+hl.bind(mainMod .. " + I",      hl.dsp.exec_cmd("idea"))
 
 -- Windows
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
