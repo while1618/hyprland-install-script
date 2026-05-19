@@ -56,7 +56,10 @@ Once it's done, reboot and you are good to go.
 
 ## Credits
 
-The following projects were the main inspirations:
+### Wallpapers
+They are all made by my friend Jovan and you can reach him on [Instagram](https://www.instagram.com/smiljak/).
+
+### Dotfiles
 - https://github.com/mylinuxforwork/dotfiles
 - https://github.com/JaKooLit/Arch-Hyprland
 - https://github.com/adi1090x/rofi
