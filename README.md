@@ -11,15 +11,15 @@
   <a href="https://github.com/sddm/sddm" target="_blank"><img alt="SDDM" src="https://img.shields.io/badge/sddm-ADF7B6?style=for-the-badge"></a>
 </p>
 
-![Screenshot](/screenshots/screenshot_1.png?raw=true)
+![Screenshot](/screenshots/screenshot_1.png)
 
-![Screenshot](/screenshots/screenshot_2.png?raw=true)
+![Screenshot](/screenshots/screenshot_2.png)
 
-![Screenshot](/screenshots/screenshot_3.png?raw=true)
+![Screenshot](/screenshots/screenshot_3.png)
 
-![Screenshot](/screenshots/screenshot_4.png?raw=true)
+![Screenshot](/screenshots/screenshot_4.png)
 
-![Screenshot](/screenshots/screenshot_5.png?raw=true)
+![Screenshot](/screenshots/screenshot_5.png)
 
 ## About
 
