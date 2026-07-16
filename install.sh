@@ -285,7 +285,7 @@ sed -i "s/^local mainMod = .*/local mainMod = \"$mod\"/" ./config/hypr/conf/keyb
 cp -rf ./config/.gtkrc-2.0 ./config/.Xresources ./config/.bashrc ./config/.zshrc ~/
 mkdir -p ~/.config/qBittorrent && cp -rf ./config/qbittorrent/qbittorrent.qbtheme ~/.config/qBittorrent
 cp -rf ./config/alacritty ./config/dunst ./config/gtk-3.0 ./config/gtk-4.0 ./config/hypr ./config/picom \
-    ./config/kitty ./config/scripts ./config/Thunar ./config/wal ./config/waybar \
+    ./config/kitty ./config/scripts ./config/Thunar ./config/wal ./config/waybar ./config/fontconfig \
     ./config/wlogout ./config/fastfetch ./config/ghostty ./config/starship.toml \
     ~/.config
 sudo sed -i "s/Inherits=.*/Inherits=Qogir-Dark/g" /usr/share/icons/default/index.theme
