@@ -7,7 +7,7 @@ hl.config({
     },
 })
 
-hl.curve("mySpring", { type = "spring", mass = 1, stiffness = 50, dampening = 12 })
+hl.curve("mySpring", { type = "spring", mass = 1, stiffness = 150, dampening = 20 })
 
 hl.animation({ leaf = "windows",      enabled = true, speed = 3,   spring = "mySpring" })
 hl.animation({ leaf = "windowsOut",   enabled = true, speed = 3,   spring = "mySpring", style = "popin 80%" })
